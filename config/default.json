@@ -1,0 +1,11 @@
+{
+  "db": {
+    "user": "jimmy2952",
+    "password": "",
+    "host": "localhost",
+    "port": 5432,
+    "database": "restful-tutorial",
+    "tsconfig": "./tsconfig.json",
+    "migration-filename-format": "utc"
+  }
+}

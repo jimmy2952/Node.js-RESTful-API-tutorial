@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "lib": ["es2020"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": ".",
+    "outDir": "build",
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "migrations/*.ts",
+    "test/**/*.ts"
+  ]
+}
