@@ -9,3 +9,5 @@ Define Postgres migration with node-pg-migrate dependency, please refer to https
 Introduce RESTful API briefly and design RESTful API of this project, please refer to https://jimmyswebnote.com/restful-api-design/
 ### 5. Implementing RESTful API in Node.js
 Implementing RESTful API with TypeScript in Node.js, please refer to https://jimmyswebnote.com/node-js-restful-api-tutorial/
+### 6. Generating RESTful API Document in Node.js with Swagger
+Making RESTful API with Swagger, please refer to https://jimmyswebnote.com/swagger-node-js-tutorial/
