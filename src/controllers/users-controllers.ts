@@ -88,8 +88,8 @@ export async function deleteUser(req: Request, res: Response, next: NextFunction
   const result = await database.query(sql, params);
   try {
     const result = await database.query(sql, params);
-    if (result !== null && result.rowCount !== 0) {
-      res.sendStatus(201);
+    if (result !== null) {
+      res.sendStatus(204);
     }
   } catch (err) {
     const error = new ErrorHandler();
