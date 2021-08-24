@@ -1,4 +1,4 @@
-## A tutorial to build a simple RESTful API in Node.js with TypeScript ans PostgreSQL
+## A tutorial to build a simple RESTful API in Node.js with TypeScript and PostgreSQL
 ### 1. Build PostgreSQL Server
 Build PostgreSQL server with Postgres.app first, please refer to https://jimmyswebnote.com/postgresql-tutorial/
 ### 2. Build http server in Node.js
