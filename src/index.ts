@@ -11,11 +11,11 @@ const app = express();
 const port = 3000;
 
 export const database = new Database({
-  host: 'localhost',
+  user: 'postgres',
+  password: 'postgres_password',
+  host: 'db',
   port: 5432,
-  database: 'restful-tutorial',
-  user: 'jimmy2952',
-  password: ''
+  database: 'postgres'
 });
 
 const usersApi = new UsersApi();

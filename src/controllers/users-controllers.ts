@@ -14,6 +14,7 @@ export async function getUsers(req: Request, res: Response, next: NextFunction) 
       res.send(result.rows);
     }
   } catch (err) {
+    console.log(err);
     const error = new ErrorHandler();
     next(error);
   }
